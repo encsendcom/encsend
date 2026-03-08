@@ -1,0 +1,46 @@
+{
+    "key_vault": {
+        "input": {
+            "payload": {
+                "secret_keys": {
+                    "secret-public-id-1": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8"
+                },
+                "request_keys": {
+                    "request-public-id-1": "AQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyA"
+                }
+            },
+            "passphrase": "RecoveryPass123",
+            "iterations": 240000
+        },
+        "random_bytes": [
+            [98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113],
+            [114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125]
+        ],
+        "frozen_at": "2026-03-08T16:05:00.000Z",
+        "output": {
+            "vault_version": "encsend-owner-key-vault-v1",
+            "encryption_algorithm": "AES-GCM",
+            "encrypted_blob": "xWew0egypb_GY5YPhlsXCxN9fBVt6kMXloFG41_K9GI-CHegoP02M2gcVmpDdlBbOVZhaawX0aurt8rv12V8qRX8sm5bXpqXCOIoVzcHLjrahxXWn95R2IDI3fAsNJEf-5w3IvHLbHK2MAWRkVQ5RwUuW6QmXTh57F63oAcc-tUsbH9fLjHiTlvANlof-159pJNVE-riaPAnlDRbe3P_k1v9mbR8dV-EOWN6lVFV3VI1k9Cop-mLxZO5DuSJz74KbprfNmAGFS8M2REXB_qlvpW6ojPk_EaY30hnlNdcIiwdZZXMkk3XasCJVJseHZ4QwQRQmvKdV81WpH5Q-pbibJPk3Q",
+            "encryption_iv": "cnN0dXZ3eHl6e3x9",
+            "kdf": {
+                "name": "PBKDF2-SHA-256",
+                "iterations": 240000,
+                "salt": "YmNkZWZnaGlqa2xtbm9wcQ"
+            },
+            "metadata": {
+                "format": "encsend-key-bundle-v1",
+                "secret_key_count": 1,
+                "request_key_count": 1,
+                "exported_at": "2026-03-08T16:05:00.000Z"
+            }
+        },
+        "decrypted": {
+            "secret_keys": {
+                "secret-public-id-1": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8"
+            },
+            "request_keys": {
+                "request-public-id-1": "AQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyA"
+            }
+        }
+    }
+}

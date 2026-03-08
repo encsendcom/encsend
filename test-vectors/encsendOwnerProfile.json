@@ -1,0 +1,70 @@
+{
+    "owner_profile": {
+        "input": {
+            "passphrase": "RecoveryPass123",
+            "owner_master_key": "AQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyA",
+            "iterations": 260000
+        },
+        "random_bytes": [
+            [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48],
+            [49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+        ],
+        "frozen_at": "2026-03-08T16:00:00.000Z",
+        "output": {
+            "profile_version": "encsend-owner-profile-v1",
+            "encryption_algorithm": "AES-GCM",
+            "encrypted_master_key": "6v49yoau9G45UH5DLSaMxXn0h6M8-TfLekdRNlqcrRSn7LEyEZsGFJvoYkur8pap",
+            "encryption_iv": "MTIzNDU2Nzg5Ojs8",
+            "kdf": {
+                "name": "PBKDF2-SHA-256",
+                "iterations": 260000,
+                "salt": "ISIjJCUmJygpKissLS4vMA"
+            },
+            "metadata": {
+                "created_at": "2026-03-08T16:00:00.000Z",
+                "format": "encsend-owner-master-key"
+            }
+        },
+        "decrypted": "AQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyA"
+    },
+    "wrapped_request_key": {
+        "input": {
+            "owner_master_key": "AQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyA",
+            "request_key": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8"
+        },
+        "random_bytes": [
+            [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76]
+        ],
+        "output": {
+            "key_version": "encsend-owner-rk-wrap-v1",
+            "wrapping_algorithm": "AES-GCM",
+            "wrapped_request_key": "SzbeTPoFpDh6GiD4mR7X31t-RvIMc5azZv4yJksbm0Rqs33ZXnhf62lKn4RW88v4",
+            "wrapping_iv": "QUJDREVGR0hJSktM",
+            "wrapping_meta": {
+                "tag_length": 128,
+                "encoding": "base64url"
+            }
+        },
+        "unwrapped": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8"
+    },
+    "wrapped_secret_key": {
+        "input": {
+            "owner_master_key": "AQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyA",
+            "secret_key": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8"
+        },
+        "random_bytes": [
+            [82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93]
+        ],
+        "output": {
+            "key_version": "encsend-owner-sk-wrap-v1",
+            "wrapping_algorithm": "AES-GCM",
+            "wrapped_secret_key": "etggnsBXbnyenwtDQbJ20pG2msitYhyP20nWzyKBnZMNAy6usGusQc0byeTKVqYb",
+            "wrapping_iv": "UlNUVVZXWFlaW1xd",
+            "wrapping_meta": {
+                "tag_length": 128,
+                "encoding": "base64url"
+            }
+        },
+        "unwrapped": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8"
+    }
+}

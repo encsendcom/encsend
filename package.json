@@ -1,0 +1,33 @@
+{
+    "name": "@encsend/crypto-core",
+    "version": "0.1.1",
+    "private": true,
+    "type": "module",
+    "description": "EncSend browser-side cryptographic core primitives and payload formats.",
+    "license": "MIT",
+    "sideEffects": false,
+    "files": [
+        "src",
+        "README.md",
+        "LICENSE",
+        "CONTRIBUTING.md",
+        "CHANGELOG.md",
+        "PROTOCOL.md",
+        "THREAT_MODEL.md",
+        "SECURITY.md",
+        "API_STABILITY.md",
+        "MODULE_BOUNDARIES.md",
+        "PUBLISHING_CHECKLIST.md",
+        "test-vectors"
+    ],
+    "scripts": {
+        "test": "node --test ./tests/*.test.js"
+    },
+    "exports": {
+        ".": "./src/index.js",
+        "./base64url": "./src/base64url.js",
+        "./encsendAesGcm": "./src/encsendAesGcm.js",
+        "./encsendOwnerProfile": "./src/encsendOwnerProfile.js",
+        "./encsendKeyVault": "./src/encsendKeyVault.js"
+    }
+}
