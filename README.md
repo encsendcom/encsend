@@ -30,7 +30,6 @@ Documentation prepared for that release now lives in:
 - [Security Policy](./SECURITY.md)
 - [API Stability](./API_STABILITY.md)
 - [Module Boundaries](./MODULE_BOUNDARIES.md)
-- [Publishing Checklist](./PUBLISHING_CHECKLIST.md)
 - [Contributing](./CONTRIBUTING.md)
 - [Changelog](./CHANGELOG.md)
 

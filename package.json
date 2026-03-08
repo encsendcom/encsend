@@ -17,7 +17,6 @@
         "SECURITY.md",
         "API_STABILITY.md",
         "MODULE_BOUNDARIES.md",
-        "PUBLISHING_CHECKLIST.md",
         "test-vectors"
     ],
     "scripts": {
